@@ -1,0 +1,75 @@
+:root {
+    --cor-de-fundo: #fbec5d;
+    --cor-container: #ee9a00;
+    --cor-fonte: #894A08;
+    --cor-botao: #fa9a50;
+    --cor-botao-ativo: #F0E454;
+    --estilo-font: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.container{
+    background: var(--cor-container);
+    height: 30em;
+    width: 60em;
+    margin: 3em auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: contents;
+}
+
+.titulo-principal{
+    font-size: 3em;
+    text-align: center;
+    font-family: var(--estilo-font);
+}
+
+.titulo-rotulo{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: var(--estilo-font);
+    margin: 2px auto;
+}
+
+#titulo-nome{
+    margin-top: 2.5em;
+}
+
+.caixa-texto{
+    width: 25em;
+    height: 2em;
+    border-radius: 2px;
+    margin: 5px auto;
+}
+
+#peso{
+    margin-bottom: 2.5em;
+}
+
+.botao{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: var(--estilo-font);
+    background-color: var(--cor-botao);
+    width: 25em;
+    height: 2em;
+    margin: 5px auto;
+}
+
+.botao:hover{
+    background-color: #F0E454;
+}
+
+#resultado{
+    font-family: var(--estilo-font);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}

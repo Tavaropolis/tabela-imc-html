@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <link href="reset.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo-principal">Calculadora IMC</h1>
+        <form>
+            <label for="nome" class="titulo-rotulo" id="titulo-nome">Nome</label>
+            <input type="text" class="caixa-texto" name="dados-imc" id="nome" placeholder="Digite seu nome aqui">
+            <label for="altura" class="titulo-rotulo">Altura</label>
+            <input type="number" class="caixa-texto" name="dados-imc" id="altura" placeholder="Digite sua altura em metros" required>
+            <label for="peso" class="titulo-rotulo">Peso</label>
+            <input type="number" class="caixa-texto" name="dados-imc" id="peso" placeholder="Digite seu peso em quilos" required>
+            <button type="submit" class="botao" name="dados-imc">Enviar dados</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
